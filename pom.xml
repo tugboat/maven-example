@@ -13,6 +13,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>example</name>
 	<description>Example project for Maven build/deploy</description>
+  <scm>
+    <connection>scm:git:git://github.com/tugboat/maven-example.git</connection>
+    <developerConnection>scm:git:git@github.com:tugboat/maven-example.git</developerConnection>
+    <url>https://github.com/tugboat/maven-example</url>
+  </scm>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
